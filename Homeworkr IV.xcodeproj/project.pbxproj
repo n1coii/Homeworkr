@@ -17,6 +17,23 @@
 		F1822C2625D9A83E00A1E9E6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C0D25D9A83E00A1E9E6 /* Persistence.swift */; };
 		F1822C2725D9A83E00A1E9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1822C0E25D9A83E00A1E9E6 /* Assets.xcassets */; };
 		F1822C2825D9A83E00A1E9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1822C0E25D9A83E00A1E9E6 /* Assets.xcassets */; };
+		F1822C3B25D9A87600A1E9E6 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3425D9A87600A1E9E6 /* TaskView.swift */; };
+		F1822C3C25D9A87600A1E9E6 /* ClassInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3525D9A87600A1E9E6 /* ClassInfoView.swift */; };
+		F1822C3D25D9A87600A1E9E6 /* TaskInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3625D9A87600A1E9E6 /* TaskInfoView.swift */; };
+		F1822C3E25D9A87600A1E9E6 /* ClassEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3725D9A87600A1E9E6 /* ClassEditView.swift */; };
+		F1822C3F25D9A87600A1E9E6 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3825D9A87600A1E9E6 /* AddView.swift */; };
+		F1822C4025D9A87600A1E9E6 /* AddClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3925D9A87600A1E9E6 /* AddClassView.swift */; };
+		F1822C4125D9A87600A1E9E6 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3A25D9A87600A1E9E6 /* ClassView.swift */; };
+		F1822C4625D9A96E00A1E9E6 /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C4425D9A96E00A1E9E6 /* Course+CoreDataClass.swift */; };
+		F1822C4725D9A96E00A1E9E6 /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C4425D9A96E00A1E9E6 /* Course+CoreDataClass.swift */; };
+		F1822C4825D9A96E00A1E9E6 /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C4525D9A96E00A1E9E6 /* Course+CoreDataProperties.swift */; };
+		F1822C4925D9A96E00A1E9E6 /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C4525D9A96E00A1E9E6 /* Course+CoreDataProperties.swift */; };
+		F1822C4E25D9A98C00A1E9E6 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C4C25D9A98C00A1E9E6 /* Task+CoreDataClass.swift */; };
+		F1822C4F25D9A98C00A1E9E6 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C4C25D9A98C00A1E9E6 /* Task+CoreDataClass.swift */; };
+		F1822C5025D9A98C00A1E9E6 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C4D25D9A98C00A1E9E6 /* Task+CoreDataProperties.swift */; };
+		F1822C5125D9A98C00A1E9E6 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C4D25D9A98C00A1E9E6 /* Task+CoreDataProperties.swift */; };
+		F1822C5625D9A9F600A1E9E6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C5525D9A9F600A1E9E6 /* ColorExtension.swift */; };
+		F1822C5725D9A9F600A1E9E6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C5525D9A9F600A1E9E6 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +47,18 @@
 		F1822C1B25D9A83E00A1E9E6 /* Homeworkr IV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homeworkr IV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1822C1D25D9A83E00A1E9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1822C1E25D9A83E00A1E9E6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F1822C3425D9A87600A1E9E6 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskView.swift; path = "../../../Homeworkr III/iOS/Views/TaskView.swift"; sourceTree = "<group>"; };
+		F1822C3525D9A87600A1E9E6 /* ClassInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassInfoView.swift; path = "../../../Homeworkr III/iOS/Views/ClassInfoView.swift"; sourceTree = "<group>"; };
+		F1822C3625D9A87600A1E9E6 /* TaskInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskInfoView.swift; path = "../../../Homeworkr III/iOS/Views/TaskInfoView.swift"; sourceTree = "<group>"; };
+		F1822C3725D9A87600A1E9E6 /* ClassEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassEditView.swift; path = "../../../Homeworkr III/iOS/Views/ClassEditView.swift"; sourceTree = "<group>"; };
+		F1822C3825D9A87600A1E9E6 /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddView.swift; path = "../../../Homeworkr III/iOS/Views/AddView.swift"; sourceTree = "<group>"; };
+		F1822C3925D9A87600A1E9E6 /* AddClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddClassView.swift; path = "../../../Homeworkr III/iOS/Views/AddClassView.swift"; sourceTree = "<group>"; };
+		F1822C3A25D9A87600A1E9E6 /* ClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassView.swift; path = "../../../Homeworkr III/iOS/Views/ClassView.swift"; sourceTree = "<group>"; };
+		F1822C4425D9A96E00A1E9E6 /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Course+CoreDataClass.swift"; path = "Shared/Models/Course+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		F1822C4525D9A96E00A1E9E6 /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Course+CoreDataProperties.swift"; path = "Shared/Models/Course+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		F1822C4C25D9A98C00A1E9E6 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataClass.swift"; path = "Shared/Models/Task+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		F1822C4D25D9A98C00A1E9E6 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataProperties.swift"; path = "Shared/Models/Task+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		F1822C5525D9A9F600A1E9E6 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = "../../Homeworkr III/Shared/ColorExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +92,8 @@
 		F1822C0825D9A83E00A1E9E6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F1822C5525D9A9F600A1E9E6 /* ColorExtension.swift */,
+				F1822C5425D9A99800A1E9E6 /* Models */,
 				F1822C0B25D9A83E00A1E9E6 /* Homeworkr_IVApp.swift */,
 				F1822C0C25D9A83E00A1E9E6 /* ContentView.swift */,
 				F1822C0D25D9A83E00A1E9E6 /* Persistence.swift */,
@@ -84,6 +115,7 @@
 		F1822C1525D9A83E00A1E9E6 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F1822C3325D9A84800A1E9E6 /* Views */,
 				F1822C1625D9A83E00A1E9E6 /* Info.plist */,
 			);
 			path = iOS;
@@ -96,6 +128,31 @@
 				F1822C1E25D9A83E00A1E9E6 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		F1822C3325D9A84800A1E9E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1822C3925D9A87600A1E9E6 /* AddClassView.swift */,
+				F1822C3825D9A87600A1E9E6 /* AddView.swift */,
+				F1822C3725D9A87600A1E9E6 /* ClassEditView.swift */,
+				F1822C3525D9A87600A1E9E6 /* ClassInfoView.swift */,
+				F1822C3A25D9A87600A1E9E6 /* ClassView.swift */,
+				F1822C3625D9A87600A1E9E6 /* TaskInfoView.swift */,
+				F1822C3425D9A87600A1E9E6 /* TaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1822C5425D9A99800A1E9E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1822C4C25D9A98C00A1E9E6 /* Task+CoreDataClass.swift */,
+				F1822C4D25D9A98C00A1E9E6 /* Task+CoreDataProperties.swift */,
+				F1822C4425D9A96E00A1E9E6 /* Course+CoreDataClass.swift */,
+				F1822C4525D9A96E00A1E9E6 /* Course+CoreDataProperties.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,9 +253,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1822C1F25D9A83E00A1E9E6 /* Homeworkr_IV.xcdatamodeld in Sources */,
+				F1822C4025D9A87600A1E9E6 /* AddClassView.swift in Sources */,
+				F1822C4E25D9A98C00A1E9E6 /* Task+CoreDataClass.swift in Sources */,
+				F1822C3D25D9A87600A1E9E6 /* TaskInfoView.swift in Sources */,
+				F1822C3F25D9A87600A1E9E6 /* AddView.swift in Sources */,
+				F1822C3C25D9A87600A1E9E6 /* ClassInfoView.swift in Sources */,
 				F1822C2525D9A83E00A1E9E6 /* Persistence.swift in Sources */,
+				F1822C4625D9A96E00A1E9E6 /* Course+CoreDataClass.swift in Sources */,
 				F1822C2125D9A83E00A1E9E6 /* Homeworkr_IVApp.swift in Sources */,
+				F1822C3E25D9A87600A1E9E6 /* ClassEditView.swift in Sources */,
+				F1822C3B25D9A87600A1E9E6 /* TaskView.swift in Sources */,
+				F1822C5625D9A9F600A1E9E6 /* ColorExtension.swift in Sources */,
 				F1822C2325D9A83E00A1E9E6 /* ContentView.swift in Sources */,
+				F1822C4125D9A87600A1E9E6 /* ClassView.swift in Sources */,
+				F1822C5025D9A98C00A1E9E6 /* Task+CoreDataProperties.swift in Sources */,
+				F1822C4825D9A96E00A1E9E6 /* Course+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,9 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1822C4725D9A96E00A1E9E6 /* Course+CoreDataClass.swift in Sources */,
 				F1822C2025D9A83E00A1E9E6 /* Homeworkr_IV.xcdatamodeld in Sources */,
+				F1822C4F25D9A98C00A1E9E6 /* Task+CoreDataClass.swift in Sources */,
+				F1822C5725D9A9F600A1E9E6 /* ColorExtension.swift in Sources */,
 				F1822C2625D9A83E00A1E9E6 /* Persistence.swift in Sources */,
 				F1822C2225D9A83E00A1E9E6 /* Homeworkr_IVApp.swift in Sources */,
+				F1822C4925D9A96E00A1E9E6 /* Course+CoreDataProperties.swift in Sources */,
+				F1822C5125D9A98C00A1E9E6 /* Task+CoreDataProperties.swift in Sources */,
 				F1822C2425D9A83E00A1E9E6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
