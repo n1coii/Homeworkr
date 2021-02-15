@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE96467AE6381890707185EC /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE964CA908FD2ECB4D8B633D /* TaskEditView.swift */; };
 		F1822C1F25D9A83E00A1E9E6 /* Homeworkr_IV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1822C0925D9A83E00A1E9E6 /* Homeworkr_IV.xcdatamodeld */; };
 		F1822C2025D9A83E00A1E9E6 /* Homeworkr_IV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1822C0925D9A83E00A1E9E6 /* Homeworkr_IV.xcdatamodeld */; };
 		F1822C2125D9A83E00A1E9E6 /* Homeworkr_IVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C0B25D9A83E00A1E9E6 /* Homeworkr_IVApp.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE964CA908FD2ECB4D8B633D /* TaskEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
 		F1822C0A25D9A83E00A1E9E6 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		F1822C0B25D9A83E00A1E9E6 /* Homeworkr_IVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworkr_IVApp.swift; sourceTree = "<group>"; };
 		F1822C0C25D9A83E00A1E9E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				F1822C3A25D9A87600A1E9E6 /* ClassView.swift */,
 				F1822C3625D9A87600A1E9E6 /* TaskInfoView.swift */,
 				F1822C3425D9A87600A1E9E6 /* TaskView.swift */,
+				BE964CA908FD2ECB4D8B633D /* TaskEditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				F1822C4125D9A87600A1E9E6 /* ClassView.swift in Sources */,
 				F1822C5025D9A98C00A1E9E6 /* Task+CoreDataProperties.swift in Sources */,
 				F1822C4825D9A96E00A1E9E6 /* Course+CoreDataProperties.swift in Sources */,
+				BE96467AE6381890707185EC /* TaskEditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
