@@ -21,6 +21,7 @@ extension Task {
     @NSManaged public var start: Date
     @NSManaged public var status: String
     @NSManaged public var title: String
+    @NSManaged public var taskType: String
 
 }
 
