@@ -11,6 +11,7 @@ struct PersistenceController {
     static let shared = PersistenceController()
 
     static var preview: PersistenceController = {
+        let course = Course()
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for _ in 0..<10 {
@@ -19,7 +20,7 @@ struct PersistenceController {
             newTask.due = Date()
             newTask.status = "open"
             newTask.title = "New task"
-            newTask.course = "Math"
+            newTask.course = course
         }
         do {
             try viewContext.save()
