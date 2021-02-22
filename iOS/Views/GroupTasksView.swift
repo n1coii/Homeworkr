@@ -8,22 +8,15 @@
 import SwiftUI
 
 struct GroupTasksView: View {
-    @FetchRequest(fetchRequest: Task.fetchRequest(.all)) var tasks: FetchedResults<Task>
+    @FetchRequest(fetchRequest: Task.fetchRequest(.open)) var tasks: FetchedResults<Task>
     
     @Environment(\.managedObjectContext)  var viewContext
     @ObservedObject var course : Course
-    
+
     
     var body: some View {
             ForEach(course.taskArray, id:\.self) { task in
-                NavigationLink(destination: TaskInfoView(task: task)) {
-                    HStack {
-                        Text(task.title)
-                        Spacer()
-                        Text(getTypeEmoji(task.taskType))
-                        
-                    }
-                }
+                    TaskView(task: task)
             }.onDelete(perform: deleteItems)
     }
     

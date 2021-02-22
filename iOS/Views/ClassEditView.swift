@@ -9,29 +9,27 @@ import SwiftUI
 
 struct ClassEditView: View {
     @ObservedObject var course: Course
-    @State var tagColor = Color(red: 0.8, green: 0.1, blue: 0.5)
-    @State var isPresented: Bool = false
+    @State var tagColor: Color
+    @State var isPresented: Bool
     
 //    @State private var courseDraft: Course
     
-//    init(course: Binding<Course>) {
-//        _courseDraft = State(wrappedValue: course.wrappedValue())
-//    }
+    init(course: ObservedObject<Course>) {
+        _course = ObservedObject(wrappedValue: course.wrappedValue)
+//        _tagColor = State(initialValue: Color(UIColor(hex: course.tagColor.wrappedValue!)!))
+        _tagColor = State(initialValue: Color(UIColor(hex: course.wrappedValue.tagColor!)!))
+        _isPresented = State(initialValue: false)
+    }
 
     var body: some View {
         Form {
             HStack {
-                TextField("Title", text: $course.title).foregroundColor(Color(UIColor(hex: course.tagColor ?? "#FFF")!)).font(Font.title)
+                TextField("Title", text: $course.title)
                 Spacer()
                 ColorPicker("Change color", selection: $tagColor, supportsOpacity: false).labelsHidden()
-//                Label {
-//                    Text("color")
-//                } icon: {
-//                Image(systemName: "circle.fill").foregroundColor(Color(UIColor(hex: course.tagColor)!))
-//                }.labelStyle(IconOnlyLabelStyle())
-            }
-//                TextField("Schedule", text: $course.schedule)
+//                TextField("Schedule", text: $course.schedule.)
         }
     }
     }
+}
 

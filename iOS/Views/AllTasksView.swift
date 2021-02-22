@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct AllTasksView: View {
+    
     @Environment(\.managedObjectContext)  var viewContext
-    @FetchRequest(fetchRequest: Task.fetchRequest(.all)) var tasks: FetchedResults<Task>
+    @FetchRequest(fetchRequest: Task.fetchRequest(.open)) var tasks: FetchedResults<Task>
     
     var viewController = TaskViewController()
     //    var tasks = viewController.getTasks()
@@ -22,6 +23,7 @@ struct AllTasksView: View {
     @State  var sortBy: Int = 1
     @State  var groupBy: Int = 3
     @State var isGrouped: Bool = false
+    @State var showCompleted: Bool = false
     
     
     var body: some View {
@@ -49,7 +51,7 @@ struct AllTasksView: View {
                                             
                                         }.sheet(isPresented: $showingSheetFilter) {
                                             NavigationView {
-                                                FilterTaskView(isPresented: $showingSheetFilter, sortBy: $sortBy, groupBy: $groupBy, isGrouped: $isGrouped)
+                                                FilterTaskView(isPresented: $showingSheetFilter, sortBy: $sortBy, groupBy: $groupBy, isGrouped: $isGrouped, showCompleted: $showCompleted)
                                             }
                                         }
                                         

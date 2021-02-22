@@ -33,7 +33,7 @@ extension Task {
     @NSManaged public var taskType: String
     @NSManaged public var title: String
     @NSManaged public var course: Course
-    @NSManaged public var isOpen: Bool
+    @NSManaged public var isCompleted: Bool
 
 }
 
@@ -48,7 +48,7 @@ extension Task : Identifiable {
         task.due = updatedTask.due
         task.status = updatedTask.status
         task.taskType = updatedTask.taskType
-        task.isOpen = updatedTask.isOpen
+        task.isCompleted = updatedTask.isCompleted
         task.objectWillChange.send()
         do {
             try context.save()
@@ -63,7 +63,7 @@ extension Task : Identifiable {
 
 }
 
-func addTask(title: String, course: Course, start: Date, due: Date, status: String, taskType: String, isOpen: Bool = true, in context: NSManagedObjectContext) {
+func addTask(title: String, course: Course, start: Date, due: Date, status: String, taskType: String, isCompleted: Bool = false, in context: NSManagedObjectContext) {
         let newTask = Task(context: context)
         newTask.start = start
         newTask.title = title
@@ -71,6 +71,6 @@ func addTask(title: String, course: Course, start: Date, due: Date, status: Stri
         newTask.due = due
         newTask.status = status
         newTask.taskType = taskType
-        newTask.isOpen = isOpen
+        newTask.isCompleted = isCompleted
     Task.update(from: newTask,in: context)
 }
