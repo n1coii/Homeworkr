@@ -14,8 +14,6 @@
 		F11BAAED25E152670010BE59 /* AddClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BAAEB25E152670010BE59 /* AddClassViewModel.swift */; };
 		F11BAB0125E15F900010BE59 /* TaskTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BAB0025E15F900010BE59 /* TaskTypeModel.swift */; };
 		F11BAB0225E15F900010BE59 /* TaskTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BAB0025E15F900010BE59 /* TaskTypeModel.swift */; };
-		F11BAB0625E1725F0010BE59 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BAB0525E1725F0010BE59 /* ColorExtension.swift */; };
-		F11BAB0725E1725F0010BE59 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BAB0525E1725F0010BE59 /* ColorExtension.swift */; };
 		F11BAB0B25E173330010BE59 /* FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BAB0A25E173330010BE59 /* FoundationExtension.swift */; };
 		F11BAB0C25E173330010BE59 /* FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BAB0A25E173330010BE59 /* FoundationExtension.swift */; };
 		F1436A7F25DB4BE300A41A6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1436A7E25DB4BE300A41A6A /* ViewController.swift */; };
@@ -30,15 +28,21 @@
 		F1822C2625D9A83E00A1E9E6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C0D25D9A83E00A1E9E6 /* Persistence.swift */; };
 		F1822C2725D9A83E00A1E9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1822C0E25D9A83E00A1E9E6 /* Assets.xcassets */; };
 		F1822C2825D9A83E00A1E9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1822C0E25D9A83E00A1E9E6 /* Assets.xcassets */; };
-		F1822C3B25D9A87600A1E9E6 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3425D9A87600A1E9E6 /* TaskView.swift */; };
-		F1822C3C25D9A87600A1E9E6 /* ClassInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3525D9A87600A1E9E6 /* ClassInfoView.swift */; };
-		F1822C3D25D9A87600A1E9E6 /* TaskInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3625D9A87600A1E9E6 /* TaskInfoView.swift */; };
-		F1822C3E25D9A87600A1E9E6 /* ClassEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3725D9A87600A1E9E6 /* ClassEditView.swift */; };
-		F1822C3F25D9A87600A1E9E6 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3825D9A87600A1E9E6 /* AddTaskView.swift */; };
-		F1822C4025D9A87600A1E9E6 /* AddClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3925D9A87600A1E9E6 /* AddClassView.swift */; };
-		F1822C4125D9A87600A1E9E6 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C3A25D9A87600A1E9E6 /* ClassView.swift */; };
-		F1822C5625D9A9F600A1E9E6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C5525D9A9F600A1E9E6 /* ColorExtension.swift */; };
-		F1822C5725D9A9F600A1E9E6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1822C5525D9A9F600A1E9E6 /* ColorExtension.swift */; };
+		F194E16825E42807008AF815 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E16725E42807008AF815 /* TaskView.swift */; };
+		F194E17025E42840008AF815 /* TaskInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E16F25E42840008AF815 /* TaskInfoView.swift */; };
+		F194E17825E42860008AF815 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E17725E42860008AF815 /* ClassView.swift */; };
+		F194E18025E4287C008AF815 /* ClassInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E17F25E4287C008AF815 /* ClassInfoView.swift */; };
+		F194E18825E42895008AF815 /* ClassEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E18725E42895008AF815 /* ClassEditView.swift */; };
+		F194E19025E428B0008AF815 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E18F25E428B0008AF815 /* AddTaskView.swift */; };
+		F194E19825E428C7008AF815 /* AddClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E19725E428C7008AF815 /* AddClassView.swift */; };
+		F194E19E25E42984008AF815 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E19D25E42984008AF815 /* ColorExtension.swift */; };
+		F194E19F25E42984008AF815 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E19D25E42984008AF815 /* ColorExtension.swift */; };
+		F194E1AF25E43199008AF815 /* FilterTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E1AE25E43199008AF815 /* FilterTaskView.swift */; };
+		F194E1B325E43E38008AF815 /* GroupsTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E1B225E43E38008AF815 /* GroupsTaskView.swift */; };
+		F194E1B725E44047008AF815 /* GroupTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E1B625E44047008AF815 /* GroupTasksView.swift */; };
+		F194E1BD25E44A4A008AF815 /* AllTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E1BC25E44A4A008AF815 /* AllTasksView.swift */; };
+		F194E1C125E45929008AF815 /* TypeEmojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E1C025E45929008AF815 /* TypeEmojis.swift */; };
+		F194E1C225E45929008AF815 /* TypeEmojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F194E1C025E45929008AF815 /* TypeEmojis.swift */; };
 		F1A3E8E525E06DC8007A2374 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3E8E425E06DC8007A2374 /* Schedule.swift */; };
 		F1A3E8E625E06DC8007A2374 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3E8E425E06DC8007A2374 /* Schedule.swift */; };
 		F1A3E8F125E06E1A007A2374 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3E8EC25E06E1A007A2374 /* Task.swift */; };
@@ -47,6 +51,7 @@
 		F1A3E8F625E06E1A007A2374 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3E8EE25E06E1A007A2374 /* Course.swift */; };
 		F1A3E8FA25E142BD007A2374 /* WrappedOptional+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3E8F925E142BD007A2374 /* WrappedOptional+String.swift */; };
 		F1A3E8FB25E142BD007A2374 /* WrappedOptional+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A3E8F925E142BD007A2374 /* WrappedOptional+String.swift */; };
+		F1B474CF25E46157005567BE /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B474CE25E46157005567BE /* Checkbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +59,6 @@
 		BE964EA2908FB0FD5E5E7E1A /* TaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 		F11BAAEB25E152670010BE59 /* AddClassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassViewModel.swift; sourceTree = "<group>"; };
 		F11BAB0025E15F900010BE59 /* TaskTypeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTypeModel.swift; sourceTree = "<group>"; };
-		F11BAB0525E1725F0010BE59 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = "../../../Homeworkr III/Shared/ColorExtension.swift"; sourceTree = "<group>"; };
 		F11BAB0A25E173330010BE59 /* FoundationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtension.swift; sourceTree = "<group>"; };
 		F1436A7E25DB4BE300A41A6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1822C0A25D9A83E00A1E9E6 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
@@ -62,24 +66,29 @@
 		F1822C0C25D9A83E00A1E9E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1822C0D25D9A83E00A1E9E6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F1822C0E25D9A83E00A1E9E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F1822C1325D9A83E00A1E9E6 /* Homeworkr IV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homeworkr IV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1822C1325D9A83E00A1E9E6 /* Homeworkr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homeworkr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1822C1625D9A83E00A1E9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1822C1B25D9A83E00A1E9E6 /* Homeworkr IV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homeworkr IV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1822C1B25D9A83E00A1E9E6 /* Homeworkr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homeworkr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1822C1D25D9A83E00A1E9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1822C1E25D9A83E00A1E9E6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		F1822C3425D9A87600A1E9E6 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskView.swift; path = "../../../Homeworkr III/iOS/Views/TaskView.swift"; sourceTree = "<group>"; };
-		F1822C3525D9A87600A1E9E6 /* ClassInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassInfoView.swift; path = "../../../Homeworkr III/iOS/Views/ClassInfoView.swift"; sourceTree = "<group>"; };
-		F1822C3625D9A87600A1E9E6 /* TaskInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskInfoView.swift; path = "../../../Homeworkr III/iOS/Views/TaskInfoView.swift"; sourceTree = "<group>"; };
-		F1822C3725D9A87600A1E9E6 /* ClassEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassEditView.swift; path = "../../../Homeworkr III/iOS/Views/ClassEditView.swift"; sourceTree = "<group>"; };
-		F1822C3825D9A87600A1E9E6 /* AddTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTaskView.swift; path = "../../../Homeworkr III/iOS/Views/AddTaskView.swift"; sourceTree = "<group>"; };
-		F1822C3925D9A87600A1E9E6 /* AddClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddClassView.swift; path = "../../../Homeworkr III/iOS/Views/AddClassView.swift"; sourceTree = "<group>"; };
-		F1822C3A25D9A87600A1E9E6 /* ClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassView.swift; path = "../../../Homeworkr III/iOS/Views/ClassView.swift"; sourceTree = "<group>"; };
-		F1822C5525D9A9F600A1E9E6 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = "../../Homeworkr III/Shared/ColorExtension.swift"; sourceTree = "<group>"; };
+		F194E16725E42807008AF815 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		F194E16F25E42840008AF815 /* TaskInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInfoView.swift; sourceTree = "<group>"; };
+		F194E17725E42860008AF815 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
+		F194E17F25E4287C008AF815 /* ClassInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInfoView.swift; sourceTree = "<group>"; };
+		F194E18725E42895008AF815 /* ClassEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassEditView.swift; sourceTree = "<group>"; };
+		F194E18F25E428B0008AF815 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		F194E19725E428C7008AF815 /* AddClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassView.swift; sourceTree = "<group>"; };
+		F194E19D25E42984008AF815 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		F194E1AE25E43199008AF815 /* FilterTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTaskView.swift; sourceTree = "<group>"; };
+		F194E1B225E43E38008AF815 /* GroupsTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTaskView.swift; sourceTree = "<group>"; };
+		F194E1B625E44047008AF815 /* GroupTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTasksView.swift; sourceTree = "<group>"; };
+		F194E1BC25E44A4A008AF815 /* AllTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTasksView.swift; sourceTree = "<group>"; };
+		F194E1C025E45929008AF815 /* TypeEmojis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeEmojis.swift; sourceTree = "<group>"; };
 		F1A3E8E425E06DC8007A2374 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		F1A3E8EC25E06E1A007A2374 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = SOURCE_ROOT; };
 		F1A3E8EE25E06E1A007A2374 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = SOURCE_ROOT; };
 		F1A3E8F925E142BD007A2374 /* WrappedOptional+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WrappedOptional+String.swift"; sourceTree = "<group>"; };
-		F1A3E8FF25E142E4007A2374 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		F1B474CE25E46157005567BE /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				F1A3E8FE25E142DD007A2374 /* Utilities */,
-				F1822C5525D9A9F600A1E9E6 /* ColorExtension.swift */,
 				F1822C5425D9A99800A1E9E6 /* Models */,
 				F1822C0B25D9A83E00A1E9E6 /* Homeworkr_IVApp.swift */,
 				F1822C0C25D9A83E00A1E9E6 /* ContentView.swift */,
@@ -139,8 +147,8 @@
 		F1822C1425D9A83E00A1E9E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1822C1325D9A83E00A1E9E6 /* Homeworkr IV.app */,
-				F1822C1B25D9A83E00A1E9E6 /* Homeworkr IV.app */,
+				F1822C1325D9A83E00A1E9E6 /* Homeworkr.app */,
+				F1822C1B25D9A83E00A1E9E6 /* Homeworkr.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +156,7 @@
 		F1822C1525D9A83E00A1E9E6 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F1B474CD25E46143005567BE /* Utilities */,
 				F1822C3325D9A84800A1E9E6 /* Views */,
 				F1822C1625D9A83E00A1E9E6 /* Info.plist */,
 			);
@@ -166,14 +175,18 @@
 		F1822C3325D9A84800A1E9E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F1822C3925D9A87600A1E9E6 /* AddClassView.swift */,
-				F1822C3825D9A87600A1E9E6 /* AddTaskView.swift */,
-				F1822C3725D9A87600A1E9E6 /* ClassEditView.swift */,
-				F1822C3525D9A87600A1E9E6 /* ClassInfoView.swift */,
-				F1822C3A25D9A87600A1E9E6 /* ClassView.swift */,
-				F1822C3625D9A87600A1E9E6 /* TaskInfoView.swift */,
-				F1822C3425D9A87600A1E9E6 /* TaskView.swift */,
 				BE964CA908FD2ECB4D8B633D /* TaskEditView.swift */,
+				F194E16725E42807008AF815 /* TaskView.swift */,
+				F194E16F25E42840008AF815 /* TaskInfoView.swift */,
+				F194E17725E42860008AF815 /* ClassView.swift */,
+				F194E17F25E4287C008AF815 /* ClassInfoView.swift */,
+				F194E18725E42895008AF815 /* ClassEditView.swift */,
+				F194E18F25E428B0008AF815 /* AddTaskView.swift */,
+				F194E19725E428C7008AF815 /* AddClassView.swift */,
+				F194E1AE25E43199008AF815 /* FilterTaskView.swift */,
+				F194E1B225E43E38008AF815 /* GroupsTaskView.swift */,
+				F194E1B625E44047008AF815 /* GroupTasksView.swift */,
+				F194E1BC25E44A4A008AF815 /* AllTasksView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,10 +205,18 @@
 		F1A3E8FE25E142DD007A2374 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				F11BAB0525E1725F0010BE59 /* ColorExtension.swift */,
 				F1A3E8F925E142BD007A2374 /* WrappedOptional+String.swift */,
-				F1A3E8FF25E142E4007A2374 /* ColorExtension.swift */,
 				F11BAB0A25E173330010BE59 /* FoundationExtension.swift */,
+				F194E19D25E42984008AF815 /* ColorExtension.swift */,
+				F194E1C025E45929008AF815 /* TypeEmojis.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F1B474CD25E46143005567BE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F1B474CE25E46157005567BE /* Checkbox.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -203,9 +224,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F1822C1225D9A83E00A1E9E6 /* Homeworkr IV (iOS) */ = {
+		F1822C1225D9A83E00A1E9E6 /* Homeworkr (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1822C2B25D9A83E00A1E9E6 /* Build configuration list for PBXNativeTarget "Homeworkr IV (iOS)" */;
+			buildConfigurationList = F1822C2B25D9A83E00A1E9E6 /* Build configuration list for PBXNativeTarget "Homeworkr (iOS)" */;
 			buildPhases = (
 				F1822C0F25D9A83E00A1E9E6 /* Sources */,
 				F1822C1025D9A83E00A1E9E6 /* Frameworks */,
@@ -215,14 +236,14 @@
 			);
 			dependencies = (
 			);
-			name = "Homeworkr IV (iOS)";
+			name = "Homeworkr (iOS)";
 			productName = "Homeworkr IV (iOS)";
-			productReference = F1822C1325D9A83E00A1E9E6 /* Homeworkr IV.app */;
+			productReference = F1822C1325D9A83E00A1E9E6 /* Homeworkr.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F1822C1A25D9A83E00A1E9E6 /* Homeworkr IV (macOS) */ = {
+		F1822C1A25D9A83E00A1E9E6 /* Homeworkr (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1822C2E25D9A83E00A1E9E6 /* Build configuration list for PBXNativeTarget "Homeworkr IV (macOS)" */;
+			buildConfigurationList = F1822C2E25D9A83E00A1E9E6 /* Build configuration list for PBXNativeTarget "Homeworkr (macOS)" */;
 			buildPhases = (
 				F1822C1725D9A83E00A1E9E6 /* Sources */,
 				F1822C1825D9A83E00A1E9E6 /* Frameworks */,
@@ -232,9 +253,9 @@
 			);
 			dependencies = (
 			);
-			name = "Homeworkr IV (macOS)";
+			name = "Homeworkr (macOS)";
 			productName = "Homeworkr IV (macOS)";
-			productReference = F1822C1B25D9A83E00A1E9E6 /* Homeworkr IV.app */;
+			productReference = F1822C1B25D9A83E00A1E9E6 /* Homeworkr.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -254,7 +275,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F1822C0725D9A83D00A1E9E6 /* Build configuration list for PBXProject "Homeworkr IV" */;
+			buildConfigurationList = F1822C0725D9A83D00A1E9E6 /* Build configuration list for PBXProject "Homeworkr" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -267,8 +288,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1822C1225D9A83E00A1E9E6 /* Homeworkr IV (iOS) */,
-				F1822C1A25D9A83E00A1E9E6 /* Homeworkr IV (macOS) */,
+				F1822C1225D9A83E00A1E9E6 /* Homeworkr (iOS) */,
+				F1822C1A25D9A83E00A1E9E6 /* Homeworkr (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -297,27 +318,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F194E1C125E45929008AF815 /* TypeEmojis.swift in Sources */,
 				F1822C1F25D9A83E00A1E9E6 /* Homeworkr_IV.xcdatamodeld in Sources */,
-				F1822C4025D9A87600A1E9E6 /* AddClassView.swift in Sources */,
 				F1A3E8E525E06DC8007A2374 /* Schedule.swift in Sources */,
-				F1822C3D25D9A87600A1E9E6 /* TaskInfoView.swift in Sources */,
-				F1822C3F25D9A87600A1E9E6 /* AddTaskView.swift in Sources */,
+				F194E19E25E42984008AF815 /* ColorExtension.swift in Sources */,
+				F1B474CF25E46157005567BE /* Checkbox.swift in Sources */,
+				F194E19025E428B0008AF815 /* AddTaskView.swift in Sources */,
+				F194E1B325E43E38008AF815 /* GroupsTaskView.swift in Sources */,
 				F11BAB0B25E173330010BE59 /* FoundationExtension.swift in Sources */,
-				F1822C3C25D9A87600A1E9E6 /* ClassInfoView.swift in Sources */,
+				F194E17025E42840008AF815 /* TaskInfoView.swift in Sources */,
 				F11BAB0125E15F900010BE59 /* TaskTypeModel.swift in Sources */,
+				F194E19825E428C7008AF815 /* AddClassView.swift in Sources */,
 				F1A3E8FA25E142BD007A2374 /* WrappedOptional+String.swift in Sources */,
 				F1A3E8F525E06E1A007A2374 /* Course.swift in Sources */,
-				F11BAB0725E1725F0010BE59 /* ColorExtension.swift in Sources */,
+				F194E17825E42860008AF815 /* ClassView.swift in Sources */,
 				F1822C2525D9A83E00A1E9E6 /* Persistence.swift in Sources */,
 				F1822C2125D9A83E00A1E9E6 /* Homeworkr_IVApp.swift in Sources */,
-				F1822C3E25D9A87600A1E9E6 /* ClassEditView.swift in Sources */,
+				F194E18825E42895008AF815 /* ClassEditView.swift in Sources */,
+				F194E1B725E44047008AF815 /* GroupTasksView.swift in Sources */,
 				F1436A7F25DB4BE300A41A6A /* ViewController.swift in Sources */,
-				F1822C3B25D9A87600A1E9E6 /* TaskView.swift in Sources */,
-				F1822C5625D9A9F600A1E9E6 /* ColorExtension.swift in Sources */,
+				F194E16825E42807008AF815 /* TaskView.swift in Sources */,
 				F1822C2325D9A83E00A1E9E6 /* ContentView.swift in Sources */,
+				F194E18025E4287C008AF815 /* ClassInfoView.swift in Sources */,
 				F11BAAEC25E152670010BE59 /* AddClassViewModel.swift in Sources */,
-				F1822C4125D9A87600A1E9E6 /* ClassView.swift in Sources */,
 				BE96467AE6381890707185EC /* TaskEditView.swift in Sources */,
+				F194E1AF25E43199008AF815 /* FilterTaskView.swift in Sources */,
+				F194E1BD25E44A4A008AF815 /* AllTasksView.swift in Sources */,
 				F1A3E8F125E06E1A007A2374 /* Task.swift in Sources */,
 				BE964BD728916007F90CEAE0 /* TaskViewModel.swift in Sources */,
 			);
@@ -330,16 +356,16 @@
 				F1A3E8F625E06E1A007A2374 /* Course.swift in Sources */,
 				F1822C2025D9A83E00A1E9E6 /* Homeworkr_IV.xcdatamodeld in Sources */,
 				F11BAB0225E15F900010BE59 /* TaskTypeModel.swift in Sources */,
-				F1822C5725D9A9F600A1E9E6 /* ColorExtension.swift in Sources */,
 				F1822C2625D9A83E00A1E9E6 /* Persistence.swift in Sources */,
-				F11BAB0625E1725F0010BE59 /* ColorExtension.swift in Sources */,
 				F1822C2225D9A83E00A1E9E6 /* Homeworkr_IVApp.swift in Sources */,
 				F1436A8025DB4BE300A41A6A /* ViewController.swift in Sources */,
 				F1822C2425D9A83E00A1E9E6 /* ContentView.swift in Sources */,
 				F1A3E8FB25E142BD007A2374 /* WrappedOptional+String.swift in Sources */,
+				F194E19F25E42984008AF815 /* ColorExtension.swift in Sources */,
 				F11BAAED25E152670010BE59 /* AddClassViewModel.swift in Sources */,
 				F1A3E8E625E06DC8007A2374 /* Schedule.swift in Sources */,
 				F1A3E8F225E06E1A007A2374 /* Task.swift in Sources */,
+				F194E1C225E45929008AF815 /* TypeEmojis.swift in Sources */,
 				F11BAB0C25E173330010BE59 /* FoundationExtension.swift in Sources */,
 				BE964FF1B82B87DC03B1B8BA /* TaskViewModel.swift in Sources */,
 			);
@@ -473,8 +499,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "nicolaslegros.Homeworkr-IV";
-				PRODUCT_NAME = "Homeworkr IV";
+				PRODUCT_BUNDLE_IDENTIFIER = nicolaslegros.Homeworkr;
+				PRODUCT_NAME = Homeworkr;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -495,8 +521,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "nicolaslegros.Homeworkr-IV";
-				PRODUCT_NAME = "Homeworkr IV";
+				PRODUCT_BUNDLE_IDENTIFIER = nicolaslegros.Homeworkr;
+				PRODUCT_NAME = Homeworkr;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,8 +547,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "nicolaslegros.Homeworkr-IV";
-				PRODUCT_NAME = "Homeworkr IV";
+				PRODUCT_BUNDLE_IDENTIFIER = nicolaslegros.Homeworkr;
+				PRODUCT_NAME = Homeworkr;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -545,8 +571,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "nicolaslegros.Homeworkr-IV";
-				PRODUCT_NAME = "Homeworkr IV";
+				PRODUCT_BUNDLE_IDENTIFIER = nicolaslegros.Homeworkr;
+				PRODUCT_NAME = Homeworkr;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -555,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1822C0725D9A83D00A1E9E6 /* Build configuration list for PBXProject "Homeworkr IV" */ = {
+		F1822C0725D9A83D00A1E9E6 /* Build configuration list for PBXProject "Homeworkr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1822C2925D9A83E00A1E9E6 /* Debug */,
@@ -564,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1822C2B25D9A83E00A1E9E6 /* Build configuration list for PBXNativeTarget "Homeworkr IV (iOS)" */ = {
+		F1822C2B25D9A83E00A1E9E6 /* Build configuration list for PBXNativeTarget "Homeworkr (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1822C2C25D9A83E00A1E9E6 /* Debug */,
@@ -573,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1822C2E25D9A83E00A1E9E6 /* Build configuration list for PBXNativeTarget "Homeworkr IV (macOS)" */ = {
+		F1822C2E25D9A83E00A1E9E6 /* Build configuration list for PBXNativeTarget "Homeworkr (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1822C2F25D9A83E00A1E9E6 /* Debug */,

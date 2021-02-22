@@ -1,5 +1,8 @@
 //
-// Created by Nicolas Legros on 2021-02-05.
+//  ColorExtension.swift
+//  Homeworkr IV
+//
+//  Created by Nicolas Legros on 2021-02-22.
 //
 
 import Foundation

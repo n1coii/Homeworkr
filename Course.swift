@@ -47,6 +47,14 @@ extension Course {
 }
 
 extension Course : Identifiable {
+    
+    public var taskArray: [Task] {
+        let set = tasks as? Set<Task> ?? []
+        return set.sorted {
+            $0.title < $1.title
+        }
+    }
+    
     @discardableResult
     static func update(from updatedCourse: Course, in context: NSManagedObjectContext) -> Course {
         let request = fetchRequest(NSPredicate(format: "title = %@", updatedCourse.title as CVarArg))

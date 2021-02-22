@@ -8,6 +8,7 @@
     </entity>
     <entity name="Task" representedClassName="Task" syncable="YES">
         <attribute name="due" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="isOpen" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="start" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="status" optional="YES" attributeType="String"/>
         <attribute name="taskType" optional="YES" attributeType="String"/>
@@ -16,6 +17,6 @@
     </entity>
     <elements>
         <element name="Course" positionX="416.1912841796875" positionY="40.92303466796875" width="128" height="103"/>
-        <element name="Task" positionX="-63" positionY="9" width="128" height="133"/>
+        <element name="Task" positionX="-63" positionY="9" width="128" height="134"/>
     </elements>
 </model>

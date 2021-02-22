@@ -12,13 +12,13 @@ struct ContentView: View {
 
     var body: some View {
         TabView {
-            TaskView()
+            AllTasksView()
                     .tabItem {
-                        Image(systemName: "scroll.fill")
+                        Image(systemName: "list.bullet")
                     }
             ClassView()
                     .tabItem {
-                        Image(systemName: "calendar")
+                        Image(systemName: "rectangle.and.pencil.and.ellipsis")
 
                     }
         }
